@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap"
+    rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="index.js"></script>
+    <title>Valentine?</title>
+  </head>
+  <body>
+    <div id="main">
+      <section id="question">
+        <h1>Will you be my Valentine?</h1>
+        <img id="cat-heart" src="resources/img/cat-with-heart.jpg" alt="Cat with heart">
+      </section>
+      <section id="answers">
+        <div id="yes-button">
+          <button id="yes-btn">Yes</button>
+        </div>
+        <div id="no-button">
+          <button id="no-btn">No</button>
+        </div>
+      </section>
+      <section id="celebration" class="hidden">
+        <h1>LETS GOOOOOOOOOOOO</h1>
+        <iframe id="cat-gif" src="https://giphy.com/embed/GeimqsH0TLDt4tScGw" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      </section>
+      <div id="reset-container" class="hidden">
+          <button id="reset-btn">Reset</button>
+      </div>
+    </div>
+  </body>
+</html>
