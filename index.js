@@ -4,7 +4,7 @@
     var timer = null;
     var interval = 2000;
   
-    var audio = new Audio("resources/sounds/disco-groove-122074.mp3")
+    var audio = new Audio("resources/sounds/faye.mp3")
   
     window.addEventListener("load", init);
   
